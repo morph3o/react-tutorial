@@ -1,3 +1,6 @@
-# My Awesome Book
+# React JS Tutorial
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+In this document we will learn how to create apps using React JS along with other technologies such as Redux, GraphQL, MongoDB, etc.
+
+
+

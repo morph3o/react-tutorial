@@ -1,6 +1,6 @@
 # Setting up environment
 
-In this tutorial we are gonna use the boilerplate tools \`create-react-app\` which helps us to start a project without the hassle of installing and connecting different dependencies.
+In this tutorial we are gonna use the boilerplate tools _**create-react-app**_ which helps us to start a project without the hassle of installing and connecting different dependencies.
 
 So first of all we need to have Node JS is our computer. You can download it from the following [link](https://nodejs.org/es/) \(LTS version\).
 
