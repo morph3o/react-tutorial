@@ -11,13 +11,13 @@ Now that we have the app up and running, we will start getting our hands dirty w
 
 If we save that, we will see some errors in the browser and in the terminal. To fix those we need to remove the imports and the code within the render method in _App.js_. The file should look like the following:
 
-```
+```js
 import React, { Component } from 'react';
 
 class App extends Component {
   render() {
     return (
-      
+
     );
   }
 }
@@ -27,7 +27,7 @@ export default App;
 
 The other file that we will clean is \_index.html \_ leaving it like the following:
 
-```
+```html
 <html lang="en">
   <head>
     <title>React App</title>

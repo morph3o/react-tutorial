@@ -6,13 +6,13 @@ So first of all we need to have Node JS is our computer. You can download it fro
 
 Once you have it installed, open a terminal/console and type the following command to install the tool mentioned at the beginning:
 
-```
+```bash
 npm install create-react-app -g
 ```
 
 After the installation is finished we can start using this tool to create our apps. We will create our first React project using the following command:
 
-```
+```bash
 create-react-app my-first-component
 ```
 
@@ -20,7 +20,7 @@ This command will install all the dependencies necessary to start our React proj
 
 Once the installation is done, we go into the folder of our new project and start the app.
 
-```
+```bash
 cd my-first-component
 npm start
 ```
