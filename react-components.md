@@ -63,5 +63,5 @@ const HelloWorld = (props) => {
 };
 ```
 
-
+Here we use the **const** \(introduced in ES6\) thus our component doesn't get overwritten accidently. 
 
