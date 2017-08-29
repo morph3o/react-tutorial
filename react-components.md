@@ -51,3 +51,17 @@ var HelloWorld = function(props) {
 
 Our component will be a simple function which receives the props as a parameter.
 
+## ES6 stateless function
+
+Using ES6 syntax our component will look like the following:
+
+```
+const HelloWorld = (props) => {
+    return (
+        <h1>Hello World!</h1>
+    );
+};
+```
+
+
+
