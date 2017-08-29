@@ -35,5 +35,19 @@ class HelloWorld extends React.Component {
 }
 ```
 
+As you can see by using the ES6 syntax we can save some LoCs and improving the readability of the code.
 
+## ES5 stateless function
+
+Using the ES5 syntax and the functional style, our component will look like the following:
+
+```
+var HelloWorld = function(props) {
+    return (
+        <h1>Hello World!</h1>
+    );
+};
+```
+
+Our component will be a simple function which receives the props as a parameter.
 
