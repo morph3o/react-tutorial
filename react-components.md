@@ -27,7 +27,7 @@ Here we use vanilla JavaScript and JSX, this is the original way to create compo
 
 Using the ES6 syntax to create the same component above, it will look like the following:
 
-```
+```js
 class HelloWorld extends React.Component {
     render() {
         return <h1>Hello World</h1>
@@ -41,7 +41,7 @@ As you can see by using the ES6 syntax we can save some LoCs and improving the r
 
 Using the ES5 syntax and the functional style, our component will look like the following:
 
-```
+```js
 var HelloWorld = function(props) {
     return (
         <h1>Hello World!</h1>
@@ -55,7 +55,7 @@ Our component will be a simple function which receives the props as a parameter.
 
 Using ES6 syntax our component will look like the following:
 
-```
+```js
 const HelloWorld = (props) => {
     return (
         <h1>Hello World!</h1>
@@ -63,5 +63,5 @@ const HelloWorld = (props) => {
 };
 ```
 
-Here we use the **const** \(introduced in ES6\) thus our component doesn't get overwritten accidently. 
+Here we use the **const** \(introduced in ES6\) thus our component doesn't get overwritten accidently.
 
